@@ -1,0 +1,158 @@
+body{
+    font-family: 'Balsamiq Sans';
+}
+
+/*Barra de navegacion*/
+.nav{
+    margin: 0 335px; 
+    height: 70px;
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background-color:rgb(176, 183, 187);
+    border-radius: 3px;
+}
+
+.nav-title{
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    color: rgb(78, 76, 76);
+}
+
+.search{
+    color: rgb(8, 8, 8);
+    margin-right: 70px;
+    width: 250px;
+    font-size: 13px;
+    height: 30px;
+    border: 2px solid rgb(31, 29, 29);
+    border-radius: 3px;
+}
+
+.btn{
+    color: white;
+    width: 120px;
+    height: 30px;
+    background-color: rgb(27, 155, 194);
+    border-color: rgb(31, 29, 29);
+    box-shadow: 3px 5px 0 0 rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(17, 84, 104);
+}
+
+/*Contenedores*/
+.all{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.contenedor-1{
+    width: 380px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border: 2px solid rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sub-1{
+    width: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.sub-2{
+    margin-left: 30px;
+}
+
+.noun{
+    font-style: italic;
+    color: rgb(49, 47, 47);
+    position: relative;
+    bottom: 20px;
+    margin: 0px;
+}
+
+.plural{
+    font-size: small;
+    margin: 0px;
+    position: relative;
+    bottom: 15px;
+}
+
+.likes{
+    background-color: rgb(221, 179, 73);
+    color: rgb(31, 29, 29);
+    width: 100px;
+    height: 40px;
+    border-color: rgb(31, 29, 29);
+    box-shadow: 3px 5px 0 0 rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.likes:hover{
+    background-color: rgb(122, 97, 32);
+}
+
+.add{
+    background-color:rgb(107, 177, 107);
+    color: rgb(31, 29, 29);
+    width: 170px;
+    height: 40px;
+    border-color: rgb(31, 29, 29);
+    box-shadow: 3px 5px 0 0 rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add:hover{
+    background-color:rgb(58, 129, 58);
+}
+
+.contenedor-2{
+    width: 180px;
+    height: 135px;
+    margin-top: 30px;
+    margin-right: 30px;
+    border: 2px solid rgb(31, 29, 29);
+    border-radius: 3px;
+    padding: 5px 20px 20px 20px;
+}
+
+h2{
+    font-weight: normal;
+}
+
+.you{
+    font-weight: bold;
+}
+
+.link{
+    color: rgb(12, 81, 207);
+    text-decoration: underline;
+}
+
+.descripcion{
+    font-size: large;
+}
